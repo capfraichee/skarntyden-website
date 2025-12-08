@@ -1,0 +1,87 @@
+:root {
+
+    /* Width Variables */
+    --width-full: 100%;
+    --width-12col: 1200px;
+
+    /* Grid Settings */
+    --grid-gap: 10px;
+    --padding-default: 20px;
+
+    /* Color swatches */
+    --background-color-navigation: #00000018;
+    --background-color-light: #ededed;
+    --color-dark: #1b1e2e;
+    --color-blue: #21a1d9;
+    --color-orange: #db8127;
+}
+
+* {
+    /* Reset CSS */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: var(--width-full);
+    /* font-family: ; */
+    position: relative;
+    /* background-color: var(--background-color-light); */
+    background-color: var(--color-orange)
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    gap: var(--grid-gap);
+    width: var(--width-full);
+}
+
+.navigation {
+    width: var(--width-full);
+}
+
+
+.navigation {
+    background-color: var(--background-color-navigation);
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu-container {
+    width: var(--width-12col)
+}
+
+.menu-container ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu-container ul li a {
+    padding: 0 36px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--background-color-light);
+    font-size: 16px;
+}
+
+.menu-container ul li:nth-child(4)  {
+    padding-left: 450px;
+}
+
+/* .menu-container ul li a:hover {
+    color: var(--color-orange);
+    transition: 0.1s;
+} */
