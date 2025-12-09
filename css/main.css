@@ -67,13 +67,9 @@ p {
         text-decoration: none;
 }
 
-
-
 .button:hover {
    color: var(--color-dark-blue);
 }
-
-.bbbb {padding: 200px;}
 
 
 /* Navigation */
@@ -143,6 +139,15 @@ p {
     border: none;
  }
 /* Navigation End */
+
+
+
+/* HOME PAGE */
+
+
+
+/* HOME PAGE-End */
+
 
 
 
