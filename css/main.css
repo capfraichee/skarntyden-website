@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
 :root {
 
     /* Width Variables */
@@ -15,8 +17,8 @@
     --color-blue: #21a1d9;
     --color-orange: #db8127;
     --color-dark-blue: #1F3646;
-    --color-white: #ffffff
-}
+    --color-white: #fff;
+    }
 
 * {
     /* Reset CSS */
@@ -28,10 +30,9 @@
 body,
 html {
     width: var(--width-full);
-    /* font-family: ; */
-    position: relative;
+    font-family: 'Inter', sans-serif;
     background-color: var(--color-dark);
-  font-size;
+  font-size: 29px;
     font-weight: 400;
     font-style: normal;
 }
@@ -82,10 +83,13 @@ p {
     width: var(--width-full);
 }
 
-.navigation {
+.navigation,
+.footer {
     width: var(--width-full);
 }
 
+
+/* Navigation start */
 
 .navigation {
     background-color: var(--background-color-navigation);
@@ -104,27 +108,71 @@ p {
 }
 
 .menu-container {
-    width: var(--width-12col)
+    width: var(--width-12col);
+    display: flex;
+    align-items: center;
 }
 
-.menu-container ul {
+ .menu-container ul {
     display: flex;
     list-style: none;
 }
 
 .menu-container ul li a {
-    padding: 0 36px;
+    padding: 0 36px 0 0;
     text-decoration: none;
     text-transform: uppercase;
     color: var(--background-color-light);
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
-.menu-container ul li:nth-child(4)  {
-    padding-left: 450px;
+ .køb-billet {
+    color: var(--background-color-light);
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: var(--color-orange);
+    display: flex;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin-left: auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #00000033;
+    border: none;
+ }
+/* Navigation End */
+
+
+
+ /* Footer Start */
+
+.footer {
+    background-color: var(--color-dark);
+    height: 195px;
+    margin-top: 200px;
+    border-top: 15px solid var(--color-orange);
 }
 
-/* .menu-container ul li a:hover {
-    color: var(--color-orange);
-    transition: 0.1s;
-} */
+.footer-boxes {
+    width: var(--width-12col);
+    height: 100%;
+    margin: 0 auto;
+}
+
+.footer-box-one {
+    width: var(--width-12col);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.footer-box-one-img {
+background-image: url('../img/skarntyden.png');
+height: 75px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+ /* Footer End */
