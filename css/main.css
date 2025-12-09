@@ -74,6 +74,8 @@ html {
  .menu-container ul {
     display: flex;
     list-style: none;
+    align-items: center;
+    width: 100%;
 }
 
 .menu-container ul li a {
@@ -85,19 +87,26 @@ html {
     font-weight: 600;
 }
 
- .køb-billet {
+.menu-container ul li:last-child {
+    margin-left: auto;
+}
+
+.menu-container ul li:last-child a {
     color: var(--background-color-light);
     font-weight: 600;
     text-transform: uppercase;
     background-color: var(--color-orange);
     display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 10px 20px;
     font-size: 20px;
-    margin-left: auto;
     border-radius: 5px;
     box-shadow: 3px 3px 7px #00000033;
     border: none;
- }
+    text-decoration: none;
+}
+
 /* Navigation End */
 
 
@@ -115,8 +124,16 @@ html {
     width: var(--width-12col);
     height: 100%;
     margin: 0 auto;
+    display: flex;
+    flex-direction: row;
 }
-
+.footer-box-one,
+.footer-box-two,
+.footer-box-three,
+.footer-box-four {
+    width: 25%;
+    height: 100%;
+}
 .footer-box-one {
     width: var(--width-12col);
     height: 100%;
@@ -127,10 +144,76 @@ html {
 
 .footer-box-one-img {
 background-image: url('../img/skarntyden.png');
-height: 75px;
+height: 50px;
 width: 200px;
 background-repeat: no-repeat;
 background-size: contain;
+background-position: center;
+}
+
+.footer-box-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box-two svg {
+    color: var(--background-color-light);
+}
+
+.footer-box-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-box-three-list ul {
+    list-style: none;
+}
+
+.footer-box-three-list ul li a {
+    padding: 0 36px 0 0;
+    text-decoration: none;
+    color: var(--background-color-light);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.footer-box-four {
+    width: var(--width-12col);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 25%;
+    justify-content: end;
+}
+
+.footer-box-four-img {
+background-image: url('../img/musikhuset-esbjerg.png');
+height: 50px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
 }
 
  /* Footer End */
+
+
+ /* Praktisk info side start */
+.praktisk-info-container {
+    background-color: var(--color-dark);
+    width: var(--width-full);
+    height: 700px;
+}
+
+.praktisk-info-forside {
+    width: var(--width-12col);
+    background-image: url('../img/praktiskinfo-skarntyden.png');
+    height: 100%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+}
+
+ /* Praktisk info side slut */
