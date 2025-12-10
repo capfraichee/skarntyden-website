@@ -9,16 +9,16 @@
   --grid-gap: 32px;
   --padding-default: 20px;
 
-    /* Grid Settings */
-    --grid-gap: 10px;
-    --padding-default: 20px;
+  /* Grid Settings */
+  --grid-gap: 10px;
+  --padding-default: 20px;
 
-    /* Color swatches */
-    --background-color-navigation: #0000003e;
-    --background-color-light: #ededed;
-    --color-dark: #1b1e2e;
-    --color-orange: #db8127;
-    --color-dark-blue: #1f3646;
+  /* Color swatches */
+  --background-color-navigation: #0000003e;
+  --background-color-light: #ededed;
+  --color-dark: #1b1e2e;
+  --color-orange: #db8127;
+  --color-dark-blue: #1f3646;
 }
 
 * {
@@ -35,6 +35,7 @@ html {
   font-size: 29px;
   font-weight: 400;
   font-style: normal;
+  background-color: var(--color-dark);
 }
 
 ul {
@@ -56,7 +57,7 @@ p {
   box-shadow: -4px 6px 20px 0 #00000015;
   border-radius: 5px;
   padding: 10px 30px;
-  color: var(--color-white);
+  color: var(--background-color-light);
   text-transform: uppercase;
   text-align: center;
   font-family: Inter;
@@ -101,8 +102,7 @@ p {
   top: 0;
   z-index: 1000;
 }
- */
-.menu-container {
+*/ .menu-container {
   width: var(--width-12col);
   display: flex;
   align-items: center;
@@ -205,7 +205,7 @@ p {
 
 /* 1st screen - end*/
 
-/* 2nd screen */
+/* Text - 2nd screen */
 
 .hero-bottom {
   width: var(--width-12col);
@@ -230,7 +230,7 @@ p {
 
 /* 2nd screen - end*/
 
-/* 3d screen*/
+/* Hvem - 3d screen*/
 
 .hvem {
   border-top: solid 10px #db8127;
@@ -262,7 +262,7 @@ p {
 }
 
 .hvem-section-text ul {
-    padding: 60px 100px 20px 30px;
+  padding: 60px 100px 20px 30px;
 }
 
 .hvem-section-text ul li {
@@ -271,7 +271,6 @@ p {
   font-size: 32px;
   font-weight: 400;
   list-style: disc;
-
 }
 
 .hvem-section img {
@@ -279,18 +278,65 @@ p {
   height: 520px;
   border: solid 1px var(--color-orange);
   border-radius: 5px;
-object-fit: cover;
-object-position: center;
-display: block;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 /* 3d screen - end*/
 
+/*Hvorfor1 -  4d block*/
 
-/* 4d block*/
+.hvorfor-top {
+  background-image: url(/img/børn-besejrer-dragen.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 1000px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 440px 0 60px 0;
+  align-items: center;
+}
 
+.hvorfor-top-text {
+  width: var(--width-12col);
+  height: fit-content;
+  margin: 0 auto;
+  display: flex;
+  color: var(--color-dark);
+  justify-content: space-between;
+  text-align: start;
+    text-transform: uppercase;
+}
+
+.hvorfor-top-text h2 {
+  font-size: 73px;
+  font-weight: 700;
+}
+
+.hvorfor-top-text-p {
+  font-size: 45px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.hvorfor-top-text span {
+  display: none;
+}
 
 /* 4d block - end*/
+
+
+/* Hvorfor2  - 5d block*/
+
+
+/* 5d block - end*/
 
 
 
@@ -328,50 +374,45 @@ display: block;
 }
 
 .footer-box-one-img {
-background-image: url('../img/skarntyden.png');
-height: 50px;
-width: 200px;
-background-repeat: no-repeat;
-background-size: contain;
+  background-image: url('../img/skarntyden.png');
+  height: 50px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
- /* Footer End */
+/* Footer End */
 
- 
- /* Praktisk info side start */
-
+/* Praktisk info side start */
 
 .info-hero {
-    background-color: var(--color-dark);
-    color: var(--background-color-light);
-    padding: 80px 0 0 0;
-    border-bottom: 10px solid var(--color-orange);
+  background-color: var(--color-dark);
+  color: var(--background-color-light);
+  padding: 80px 0 0 0;
+  border-bottom: 10px solid var(--color-orange);
 }
 
 .info-hero-container {
-    width: var(--width-12col);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 60px;
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
 }
 
 .info-hero-text h1 {
-    font-family: 'inter', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.5;
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
 }
 
 .info-hero-image img {
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
 }
-
-
-    
 
 .footer-box-four-img {
   background-image: url('../img/musikhuset-esbjerg.png');
@@ -401,9 +442,7 @@ background-size: contain;
 
 /* Praktisk info side slut */
 
-
 /* Om Skarntyden start */
-
 
 /* Hero section start */
 
@@ -426,7 +465,6 @@ background-size: contain;
   font-size: 54px;
 }
 
-
 /* Text info one start */
 
 .text-info-one {
@@ -437,7 +475,7 @@ background-size: contain;
 
 .text-info-one-text {
   width: var(--width-12col);
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 120px 0;
 }
 
@@ -445,7 +483,6 @@ background-size: contain;
   margin-bottom: 50px;
   font-family: 'Source Serif 4', serif;
 }
-
 
 /* One image info start */
 
@@ -493,7 +530,6 @@ background-size: contain;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 
 /* Multiple image start */
 
