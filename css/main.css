@@ -9,16 +9,16 @@
   --grid-gap: 32px;
   --padding-default: 20px;
 
-    /* Grid Settings */
-    --grid-gap: 10px;
-    --padding-default: 20px;
+  /* Grid Settings */
+  --grid-gap: 10px;
+  --padding-default: 20px;
 
-    /* Color swatches */
-    --background-color-navigation: #0000003e;
-    --background-color-light: #ededed;
-    --color-dark: #1b1e2e;
-    --color-orange: #db8127;
-    --color-dark-blue: #1f3646;
+  /* Color swatches */
+  --background-color-navigation: #0000003e;
+  --background-color-light: #ededed;
+  --color-dark: #1b1e2e;
+  --color-orange: #db8127;
+  --color-dark-blue: #1f3646;
 }
 
 * {
@@ -35,6 +35,7 @@ html {
   font-size: 29px;
   font-weight: 400;
   font-style: normal;
+  
 }
 
 ul {
@@ -101,8 +102,8 @@ p {
   top: 0;
   z-index: 1000;
 }
- */
-.menu-container {
+
+*/ .menu-container {
   width: var(--width-12col);
   display: flex;
   align-items: center;
@@ -262,7 +263,7 @@ p {
 }
 
 .hvem-section-text ul {
-    padding: 60px 100px 20px 30px;
+  padding: 60px 100px 20px 30px;
 }
 
 .hvem-section-text ul li {
@@ -293,7 +294,7 @@ p {
 .footer {
   background-color: var(--color-dark);
   height: 195px;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   border-top: 15px solid var(--color-orange);
 }
 
@@ -304,6 +305,7 @@ p {
   display: flex;
   flex-direction: row;
 }
+
 .footer-box-one,
 .footer-box-two,
 .footer-box-three,
@@ -311,6 +313,7 @@ p {
   width: 25%;
   height: 100%;
 }
+
 .footer-box-one {
   width: var(--width-12col);
   height: 100%;
@@ -320,50 +323,50 @@ p {
 }
 
 .footer-box-one-img {
-background-image: url('../img/skarntyden.png');
-height: 50px;
-width: 200px;
-background-repeat: no-repeat;
-background-size: contain;
+  background-image: url('../img/skarntyden.png');
+  height: 50px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
- /* Footer End */
+/* Footer End */
 
- 
- /* Praktisk info side start */
+
+/* Praktisk info side start */
 
 
 .info-hero {
-    background-color: var(--color-dark);
-    color: var(--background-color-light);
-    padding: 80px 0 0 0;
-    border-bottom: 10px solid var(--color-orange);
+  background-color: var(--color-dark);
+  color: var(--background-color-light);
+  padding: 80px 0 0 0;
+  border-bottom: 10px solid var(--color-orange);
 }
 
 .info-hero-container {
-    width: var(--width-12col);
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 60px;
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
 }
 
 .info-hero-text h1 {
-    font-family: 'inter', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
-    line-height: 1.5;
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
 }
 
 .info-hero-image img {
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
 }
 
 
-    
+
 
 .footer-box-four-img {
   background-image: url('../img/musikhuset-esbjerg.png');
@@ -377,18 +380,33 @@ background-size: contain;
 /* Footer End */
 
 /* Praktisk info side start */
-.praktisk-info-container {
+.info-hero {
   background-color: var(--color-dark);
-  width: var(--width-full);
-  height: 700px;
+  color: var(--background-color-light);
+  padding: 80px 0 0 0;
+  border-bottom: 10px solid var(--color-orange);
 }
 
-.praktisk-info-forside {
+.info-hero-container {
   width: var(--width-12col);
-  background-image: url('../img/praktiskinfo-skarntyden.png');
-  height: 100%;
   margin: 0 auto;
-  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+.info-hero-text h1 {
+  font-family: 'inter', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+}
+
+.info-hero-image img {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
 }
 
 /* Praktisk info side slut */
@@ -400,10 +418,13 @@ background-size: contain;
 /* Hero section start */
 
 .hero-top-om {
-  background-image: url(https://picsum.photos/1920/900);
+  background-image: url(../img/menneskerne-bag-brødrene-løvehjerte.jpg);
   width: var(--width-full);
   height: 900px;
   border-bottom: 10px solid var(--background-color-light);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-top-text-om-h1 {
@@ -429,7 +450,7 @@ background-size: contain;
 
 .text-info-one-text {
   width: var(--width-12col);
-  margin: 0 auto; 
+  margin: 0 auto;
   padding: 120px 0;
 }
 
@@ -481,9 +502,11 @@ background-size: contain;
 .one-image-info-image {
   width: 606px;
   height: 568px;
-  background-image: url(https://picsum.photos/606/568);
+  background-image: url(../img/theater-gardin.jpg);
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 5px;
 }
 
 
@@ -503,4 +526,120 @@ background-size: contain;
   padding: 115px 0;
   gap: 40px;
 }
+
+.multiple-image-container-text-one,
+.multiple-image-container-text-two {
+  color: var(--background-color-light);
+}
+
+.multiple-image-container-text-one h2 {
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.multiple-image-container-text-one p {
+  font-family: 'Source Serif 4', serif;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 60px;
+}
+
+.multiple-image-container-image {
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  height: 540px;
+}
+
+.multiple-image-container-image-one,
+.multiple-image-container-image-two-img-one,
+.multiple-image-container-image-two-img-two,
+.multiple-image-container-image-three {
+  border: solid 1px var(--color-orange);
+  border-radius: 5px;
+}
+
+.multiple-image-container-image-one {
+ width: 45%;
+ background-image: url(../img/fire-mennesker-i-kostumer.jpg);
+ background-position:-6rem;
+ background-size: cover;
+ margin-right: 30px;
+}
+
+.multiple-image-container-image-two {
+display: flex;
+flex-direction: column;
+width: 25%;
+}
+
+.multiple-image-container-image-two-img-one {
+height: 33%;
+background-image: url(../img/to-mennesker-i-kostumer.jpg);
+background-position: -20px top ;
+background-size: 140%;
+margin-bottom: 30px;
+}
+
+.multiple-image-container-image-two-img-two {
+height: 67%;
+background-image: url(../img/mennesker-i-kostumer.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.multiple-image-container-image-three {
+  width: 25%;
+  background-image: url(../img/mand-på-en-stol-i-kostume.jpg);
+  margin-left: 30px;
+  background-size: 170%;
+  background-position: bottom center;
+}
+
+.multiple-image-container-text-two h4 {
+  font-family: 'Source Serif 4', serif;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/* No image info two start */
+
+.no-image-section-two {
+  width: var(--width-full);
+  background-color: var(--background-color-light);
+  height: 678px;
+}
+
+.no-image-section-two-container {
+  width: var(--width-12col);
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.no-image-section-two-container h3 {
+  color: var(--color-orange);
+  font-size: 55px;
+  font-weight: 600;
+  margin-bottom: 80px;
+}
+
+.no-image-section-two-container p {
+  font-family: 'Source Serif 4', serif;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 40px;
+}
+
+.her-button {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
+.media-button {
+  color: var(--color-dark);
+  font-weight: 600;
+}
+
 /* Om Skarntyden slut */
