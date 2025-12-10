@@ -9,14 +9,16 @@
   --grid-gap: 32px;
   --padding-default: 20px;
 
-  /* Color swatches */
-  --background-color-navigation: #00000018;
-  --background-color-light: #ededed;
-  --color-dark: #1b1e2e;
-  --color-blue: #21a1d9;
-  --color-orange: #db8127;
-  --color-dark-blue: #1f3646;
-  --color-white: #fff;
+    /* Grid Settings */
+    --grid-gap: 10px;
+    --padding-default: 20px;
+
+    /* Color swatches */
+    --background-color-navigation: #0000003e;
+    --background-color-light: #ededed;
+    --color-dark: #1b1e2e;
+    --color-orange: #db8127;
+    --color-dark-blue: #1f3646;
 }
 
 * {
@@ -30,7 +32,6 @@ body,
 html {
   width: var(--width-full);
   font-family: 'Inter', sans-serif;
-  background-color: var(--color-dark);
   font-size: 29px;
   font-weight: 400;
   font-style: normal;
@@ -100,7 +101,7 @@ p {
   top: 0;
   z-index: 1000;
 }
-
+ */
 .menu-container {
   width: var(--width-12col);
   display: flex;
@@ -319,51 +320,50 @@ p {
 }
 
 .footer-box-one-img {
-  background-image: url('../img/skarntyden.png');
-  height: 50px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+background-image: url('../img/skarntyden.png');
+height: 50px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: contain;
 }
 
-.footer-box-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ /* Footer End */
+
+ 
+ /* Praktisk info side start */
+
+
+.info-hero {
+    background-color: var(--color-dark);
+    color: var(--background-color-light);
+    padding: 80px 0 0 0;
+    border-bottom: 10px solid var(--color-orange);
 }
 
-.footer-box-two svg {
-  color: var(--background-color-light);
+.info-hero-container {
+    width: var(--width-12col);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
 }
 
-.footer-box-three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.info-hero-text h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
 }
 
-.footer-box-three-list ul {
-  list-style: none;
+.info-hero-image img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
 }
 
-.footer-box-three-list ul li a {
-  padding: 0 36px 0 0;
-  text-decoration: none;
-  color: var(--background-color-light);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 40px;
-}
 
-.footer-box-four {
-  width: var(--width-12col);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  width: 25%;
-  justify-content: end;
-}
+    
 
 .footer-box-four-img {
   background-image: url('../img/musikhuset-esbjerg.png');
