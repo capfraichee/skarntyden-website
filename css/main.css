@@ -9,14 +9,16 @@
   --grid-gap: 32px;
   --padding-default: 20px;
 
-  /* Color swatches */
-  --background-color-navigation: #00000018;
-  --background-color-light: #ededed;
-  --color-dark: #1b1e2e;
-  --color-blue: #21a1d9;
-  --color-orange: #db8127;
-  --color-dark-blue: #1f3646;
-  --color-white: #fff;
+    /* Grid Settings */
+    --grid-gap: 10px;
+    --padding-default: 20px;
+
+    /* Color swatches */
+    --background-color-navigation: #0000003e;
+    --background-color-light: #ededed;
+    --color-dark: #1b1e2e;
+    --color-orange: #db8127;
+    --color-dark-blue: #1f3646;
 }
 
 * {
@@ -30,7 +32,6 @@ body,
 html {
   width: var(--width-full);
   font-family: 'Inter', sans-serif;
-  background-color: var(--color-dark);
   font-size: 29px;
   font-weight: 400;
   font-style: normal;
@@ -100,7 +101,7 @@ p {
   top: 0;
   z-index: 1000;
 }
-
+ */
 .menu-container {
   width: var(--width-12col);
   display: flex;
@@ -327,51 +328,50 @@ display: block;
 }
 
 .footer-box-one-img {
-  background-image: url('../img/skarntyden.png');
-  height: 50px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+background-image: url('../img/skarntyden.png');
+height: 50px;
+width: 200px;
+background-repeat: no-repeat;
+background-size: contain;
 }
 
-.footer-box-two {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ /* Footer End */
+
+ 
+ /* Praktisk info side start */
+
+
+.info-hero {
+    background-color: var(--color-dark);
+    color: var(--background-color-light);
+    padding: 80px 0 0 0;
+    border-bottom: 10px solid var(--color-orange);
 }
 
-.footer-box-two svg {
-  color: var(--background-color-light);
+.info-hero-container {
+    width: var(--width-12col);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
 }
 
-.footer-box-three {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.info-hero-text h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
 }
 
-.footer-box-three-list ul {
-  list-style: none;
+.info-hero-image img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
 }
 
-.footer-box-three-list ul li a {
-  padding: 0 36px 0 0;
-  text-decoration: none;
-  color: var(--background-color-light);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 40px;
-}
 
-.footer-box-four {
-  width: var(--width-12col);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  width: 25%;
-  justify-content: end;
-}
+    
 
 .footer-box-four-img {
   background-image: url('../img/musikhuset-esbjerg.png');
@@ -400,3 +400,115 @@ display: block;
 }
 
 /* Praktisk info side slut */
+
+
+/* Om Skarntyden start */
+
+
+/* Hero section start */
+
+.hero-top-om {
+  background-image: url(https://picsum.photos/1920/900);
+  width: var(--width-full);
+  height: 900px;
+  border-bottom: 10px solid var(--background-color-light);
+}
+
+.hero-top-text-om-h1 {
+  color: var(--background-color-light);
+  width: var(--width-12col);
+  justify-content: center;
+  display: flex;
+  height: 900px;
+  padding-top: 200px;
+  text-transform: uppercase;
+  margin: 0 auto;
+  font-size: 54px;
+}
+
+
+/* Text info one start */
+
+.text-info-one {
+  width: var(--width-full);
+  height: 556px;
+  background-color: var(--color-orange);
+}
+
+.text-info-one-text {
+  width: var(--width-12col);
+  margin: 0 auto; 
+  padding: 120px 0;
+}
+
+.text-info-one-text p {
+  margin-bottom: 50px;
+  font-family: 'Source Serif 4', serif;
+}
+
+
+/* One image info start */
+
+.one-image-info {
+  width: var(--width-full);
+  background-color: var(--background-color-light);
+  height: 808px;
+  border-bottom: 10px solid var(--color-orange);
+}
+
+.one-image-info-container {
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  padding: 115px 0;
+  gap: 40px;
+}
+
+.one-image-info-text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.one-image-info-text h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 42px;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+  color: var(--color-orange);
+}
+
+.one-image-info-text p {
+  font-family: 'Source Serif 4', serif;
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 60px;
+}
+
+.one-image-info-image {
+  width: 606px;
+  height: 568px;
+  background-image: url(https://picsum.photos/606/568);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/* Multiple image start */
+
+.multiple-image-info {
+  width: var(--width-full);
+  background-color: var(--color-dark-blue);
+  height: 1130px;
+}
+
+.multiple-image-info-container {
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  padding: 115px 0;
+  gap: 40px;
+}
+/* Om Skarntyden slut */
