@@ -151,7 +151,7 @@ p {
 }
 
 .hero-top {
-  background-image: url(/img/brødrene_løvehjerte_1920x1000.jpg);
+  background-image: url(/img/brødrene_løvehjerte_skarntyden.jpg);
   height: fit-content;
   background-size: cover;
   background-position: center center;
@@ -265,7 +265,7 @@ p {
 .hvem-section-text ul li {
   margin-bottom: 20px;
   font-family: 'Source Serif 4';
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 400;
   list-style: disc;
 }
@@ -285,7 +285,7 @@ p {
 /*Hvorfor1 -  4d block*/
 
 .hvorfor-top {
-  background-image: url(/img/børn-besejrer-dragen.png);
+  background-image: url(/img/børn-besejrer-dragen_skarntyden.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -351,7 +351,7 @@ p {
   justify-content: space-between;
   font-family: 'Source Serif 4';
   color: var(--color-dark);
-  font-size: 26px;
+  font-size: 30px;
   gap: var(--grid-gap);
 }
 
@@ -374,31 +374,71 @@ p {
 }
 
 .teater-text {
-    width: var(--width-12col);
-    margin: 0 auto;
+  width: var(--width-12col);
+  margin: 0 auto;
 }
 
-.teater-text h1 {
-margin-bottom: 50px;
-color: var(--color-orange);
-font-size: 60px;
-font-weight: 600;
-text-transform: uppercase;
+.teater-text h2 {
+  margin-bottom: 50px;
+  color: var(--color-orange);
+  font-size: 60px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .teater-text p {
-font-family: "Source Serif 4";
-font-size: 32px;
-font-weight: 400;
+  font-family: 'Source Serif 4';
+  font-size: 30px;
+  font-weight: 400;
 }
 
 .teater-text a {
-    font-family: "Source Serif 4";
-    font-size: 32px;
-    font-weight: 500;
-    color: var(--color-orange);
+  font-family: 'Source Serif 4';
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--color-orange);
 }
 
+.teater-foto {
+  width: var(--width-12col);
+  height: 550px;
+  margin: 20px auto 60px auto;
+  display: grid;
+  gap: var(--grid-gap);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.teater-foto img {
+  border: solid 1px var(--color-orange);
+  border-radius: 5px;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.teater-foto-1column {
+  grid-column: 1 / span 5;
+  display: flex;
+}
+
+.teater-foto-2column {
+  grid-column: 6 / span 2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: var(--grid-gap);
+}
+
+.teater-foto-3column {
+  grid-column: 8 / span 3;
+    display: grid;
+    grid-template-rows: 0.6fr 1fr;
+    gap: var(--grid-gap);
+}
+
+.teater-foto-4column {
+  grid-column: 11 / span 2;
+}
 
 /*6 block - end*/
 /* HOME PAGE-End */
