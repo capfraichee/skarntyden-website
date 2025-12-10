@@ -9,10 +9,6 @@
   --grid-gap: 32px;
   --padding-default: 20px;
 
-  /* Grid Settings */
-  --grid-gap: 10px;
-  --padding-default: 20px;
-
   /* Color swatches */
   --background-color-navigation: #0000003e;
   --background-color-light: #ededed;
@@ -36,6 +32,7 @@ html {
   font-weight: 400;
   font-style: normal;
   background-color: var(--color-dark);
+  color: var(--color-dark);
 }
 
 ul {
@@ -297,7 +294,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 440px 0 60px 0;
+  padding: 440px 0 0 0;
   align-items: center;
 }
 
@@ -309,7 +306,7 @@ p {
   color: var(--color-dark);
   justify-content: space-between;
   text-align: start;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .hvorfor-top-text h2 {
@@ -332,14 +329,78 @@ p {
 
 /* 4d block - end*/
 
-
 /* Hvorfor2  - 5d block*/
 
+.hvorfor ul {
+  width: var(--width-12col);
+  margin: 0 auto;
+  display: flex;
+  color: var(--color-dark);
+  justify-content: space-between;
+  padding: 60px 0;
+  gap: var(--grid-gap);
+  flex-wrap: nowrap;
+}
+
+.hvorfor ul li {
+  background-color: var(--color-orange);
+  padding: 60px 30px;
+  width: calc((100% - var(--grid-gap) * 2) / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Source Serif 4';
+  color: var(--color-dark);
+  font-size: 26px;
+  gap: var(--grid-gap);
+}
+
+.hvorfor-persone-p {
+  font-style: italic;
+  font-weight: 400;
+}
+
+.hvorfor-persone {
+  font-weight: 700;
+}
 
 /* 5d block - end*/
 
+/* Vores teater- 6d block */
+.teater {
+  background-color: var(--background-color-light);
+  border-top: solid 10px var(--color-orange);
+  padding: 60px 0;
+}
+
+.teater-text {
+    width: var(--width-12col);
+    margin: 0 auto;
+}
+
+.teater-text h1 {
+margin-bottom: 50px;
+color: var(--color-orange);
+font-size: 60px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.teater-text p {
+font-family: "Source Serif 4";
+font-size: 32px;
+font-weight: 400;
+}
+
+.teater-text a {
+    font-family: "Source Serif 4";
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--color-orange);
+}
 
 
+/*6 block - end*/
 /* HOME PAGE-End */
 
 /* Footer Start */
