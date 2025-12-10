@@ -11,7 +11,7 @@
     --padding-default: 20px;
 
     /* Color swatches */
-    --background-color-navigation: #00000018;
+    --background-color-navigation: #0000003e; /* ny gennemsigtighed */
     --background-color-light: #ededed;
     --color-dark: #1b1e2e;
     --color-blue: #21a1d9;
@@ -31,7 +31,6 @@ html {
     font-family: 'Inter', sans-serif;
     position: relative;
     background-color: var(--background-color-light);
-    /* background-color: var(--color-orange) */
 }
 
 .container {
@@ -59,12 +58,12 @@ html {
     position: absolute;
 }
 
-.fixed {
+/* .fixed {
     position: fixed;
     top: 0;
     z-index: 1000;
 }
-
+ */
 .menu-container {
     width: var(--width-12col);
     display: flex;
@@ -127,10 +126,48 @@ html {
 
 .footer-box-one-img {
 background-image: url('../img/skarntyden.png');
-height: 75px;
+height: 50px;
 width: 200px;
 background-repeat: no-repeat;
 background-size: contain;
 }
 
  /* Footer End */
+
+ 
+ /* Praktisk info side start */
+
+
+
+.info-hero {
+    background-color: var(--color-dark);
+    color: var(--background-color-light);
+    padding: 80px 0 0 0;
+    border-bottom: 10px solid var(--color-orange);
+}
+
+.info-hero-container {
+    width: var(--width-12col);
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 60px;
+}
+
+.info-hero-text h1 {
+    font-family: 'inter', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.5;
+}
+
+.info-hero-image img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+    
+
+ /* Praktisk info side slut */
