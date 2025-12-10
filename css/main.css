@@ -399,6 +399,10 @@ p {
   color: var(--color-orange);
 }
 
+.teater-text a:hover {
+    color: var(--color-dark-blue);
+}
+
 .teater-foto {
   width: var(--width-12col);
   height: 550px;
@@ -419,7 +423,6 @@ p {
 
 .teater-foto-1column {
   grid-column: 1 / span 5;
-  display: flex;
 }
 
 .teater-foto-2column {
