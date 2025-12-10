@@ -278,12 +278,20 @@ p {
   height: 520px;
   border: solid 1px var(--color-orange);
   border-radius: 5px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
+object-fit: cover;
+object-position: center;
+display: block;
 }
 
 /* 3d screen - end*/
+
+
+/* 4d block*/
+
+
+/* 4d block - end*/
+
+
 
 /* HOME PAGE-End */
 
