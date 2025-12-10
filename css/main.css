@@ -1,127 +1,322 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 
 :root {
+  /* Width Variables */
+  --width-full: 100%;
+  --width-12col: 1200px;
 
-    /* Width Variables */
-    --width-full: 100%;
-    --width-12col: 1200px;
+  /* Grid Settings */
+  --grid-gap: 32px;
+  --padding-default: 20px;
 
     /* Grid Settings */
     --grid-gap: 10px;
     --padding-default: 20px;
 
     /* Color swatches */
-    --background-color-navigation: #0000003e; /* ny gennemsigtighed */
+    --background-color-navigation: #0000003e;
     --background-color-light: #ededed;
     --color-dark: #1b1e2e;
-    --color-blue: #21a1d9;
     --color-orange: #db8127;
+    --color-dark-blue: #1f3646;
 }
 
 * {
-    /* Reset CSS */
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  /* Reset CSS */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body,
 html {
-    width: var(--width-full);
-    font-family: 'Inter', sans-serif;
-    position: relative;
-    background-color: var(--background-color-light);
+  width: var(--width-full);
+  font-family: 'Inter', sans-serif;
+  font-size: 29px;
+  font-weight: 400;
+  font-style: normal;
 }
 
+ul {
+  list-style: none;
+}
+
+h1,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+/*Button*/
+.button {
+  background-color: var(--color-orange);
+  box-shadow: -4px 6px 20px 0 #00000015;
+  border-radius: 5px;
+  padding: 10px 30px;
+  color: var(--color-white);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Inter;
+  font-size: 25px;
+  font-weight: 600;
+  list-style: none;
+  text-decoration: none;
+}
+
+.button:hover {
+  color: var(--color-dark-blue);
+}
+
+/* Navigation */
+
 .container {
-    display: grid;
-    grid-template-rows: auto;
-    gap: var(--grid-gap);
-    width: var(--width-full);
+  display: grid;
+  grid-template-rows: auto;
+  gap: var(--grid-gap);
+  width: var(--width-full);
 }
 
 .navigation,
 .footer {
-    width: var(--width-full);
+  width: var(--width-full);
 }
-
 
 /* Navigation start */
 
 .navigation {
-    background-color: var(--background-color-navigation);
-    height: 100px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+  background-color: var(--background-color-navigation);
+  height: 100px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
 }
 
-/* .fixed {
-    position: fixed;
-    top: 0;
-    z-index: 1000;
+.fixed {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
 }
  */
 .menu-container {
-    width: var(--width-12col);
-    display: flex;
-    align-items: center;
+  width: var(--width-12col);
+  display: flex;
+  align-items: center;
 }
 
- .menu-container ul {
-    display: flex;
-    list-style: none;
+.menu-container ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 100%;
 }
 
 .menu-container ul li a {
-    padding: 0 36px 0 0;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--background-color-light);
-    font-size: 20px;
-    font-weight: 600;
+  padding: 0 36px 0 0;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--background-color-light);
+  font-size: 20px;
+  font-weight: 600;
 }
 
- .køb-billet {
-    color: var(--background-color-light);
-    font-weight: 600;
-    text-transform: uppercase;
-    background-color: var(--color-orange);
-    display: flex;
-    padding: 10px 20px;
-    font-size: 20px;
-    margin-left: auto;
-    border-radius: 5px;
-    box-shadow: 3px 3px 7px #00000033;
-    border: none;
- }
+.menu-container ul li:last-child {
+  margin-left: auto;
+}
+
+.menu-container ul li:last-child a {
+  color: var(--background-color-light);
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: var(--color-orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 7px #00000033;
+  border: none;
+  text-decoration: none;
+}
+
 /* Navigation End */
 
+/* HOME PAGE */
 
+/* 1st screen */
+.hero-section {
+  margin: 0 auto;
+}
 
- /* Footer Start */
+.hero-top {
+  background-image: url(/img/brødrene_løvehjerte_1920x1000.jpg);
+  height: fit-content;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-top-text {
+  width: var(--width-12col);
+  margin: 0 auto;
+  padding: 240px 0 140px 0;
+  display: flex;
+  flex-direction: column;
+  color: var(--background-color-light);
+  justify-content: space-between;
+  height: 100%;
+}
+
+.hero-top-text h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 125px;
+  font-weight: 700;
+  text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+  text-transform: capitalize;
+  line-height: 100px;
+  margin-bottom: 20px;
+}
+
+.hero-top-text h1 span {
+  font-size: 100px;
+  font-weight: 700;
+}
+
+.hero-top-text h3 {
+  color: #18243c;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  font-family: 'Source Serif 4', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 130px;
+}
+
+.hero-top-text ul li {
+  font-family: 'Source Serif 4';
+  margin-bottom: 10px;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* 1st screen - end*/
+
+/* 2nd screen */
+
+.hero-bottom {
+  width: var(--width-12col);
+  margin: 0 auto;
+  padding-bottom: 160px;
+}
+
+.hero-bottom-text {
+  padding: 60px 0;
+  color: var(--background-color-light);
+  font-family: 'Inter';
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 55px;
+  height: fit-content;
+}
+
+.hero-bottom-text span {
+  color: var(--color-orange);
+  font-weight: 700;
+}
+
+/* 2nd screen - end*/
+
+/* 3d screen*/
+
+.hvem {
+  border-top: solid 10px #db8127;
+  padding: 80px 0;
+  background-color: var(--color-dark-blue);
+}
+
+.hvem-section {
+  width: var(--width-12col);
+  margin: 0 auto;
+  color: var(--background-color-light);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hvem-section-text {
+  width: 50%;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hvem-section-text h2 {
+  color: var(--color-orange);
+  font-size: 55px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.hvem-section-text ul {
+    padding: 60px 100px 20px 30px;
+}
+
+.hvem-section-text ul li {
+  margin-bottom: 20px;
+  font-family: 'Source Serif 4';
+  font-size: 32px;
+  font-weight: 400;
+  list-style: disc;
+
+}
+
+.hvem-section img {
+  width: 50%;
+  height: 520px;
+  border: solid 1px var(--color-orange);
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+/* 3d screen - end*/
+
+/* HOME PAGE-End */
+
+/* Footer Start */
 
 .footer {
-    background-color: var(--color-dark);
-    height: 195px;
-    margin-top: 200px;
-    border-top: 15px solid var(--color-orange);
+  background-color: var(--color-dark);
+  height: 195px;
+  margin-top: 200px;
+  border-top: 15px solid var(--color-orange);
 }
 
 .footer-boxes {
-    width: var(--width-12col);
-    height: 100%;
-    margin: 0 auto;
+  width: var(--width-12col);
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
 }
-
+.footer-box-one,
+.footer-box-two,
+.footer-box-three,
+.footer-box-four {
+  width: 25%;
+  height: 100%;
+}
 .footer-box-one {
-    width: var(--width-12col);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    width: 25%;
+  width: var(--width-12col);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 25%;
 }
 
 .footer-box-one-img {
@@ -136,7 +331,6 @@ background-size: contain;
 
  
  /* Praktisk info side start */
-
 
 
 .info-hero {
@@ -167,6 +361,7 @@ background-size: contain;
     height: auto;
     padding-top: 20px;
 }
+
 
     
 
