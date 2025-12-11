@@ -385,12 +385,13 @@ p {
 .teater {
   background-color: var(--background-color-light);
   border-top: solid 10px var(--color-orange);
-  padding: 60px 0;
+  width: var(--width-full);
 }
 
 .teater-text {
   width: var(--width-12col);
   margin: 0 auto;
+    padding: 60px 20px;
 }
 
 .teater-text h2 {
@@ -412,6 +413,10 @@ p {
   font-size: 30px;
   font-weight: 500;
   color: var(--color-orange);
+}
+
+.teater-text a:hover {
+  color: var(--color-dark-blue);
 }
 
 .teater-foto {

@@ -61,6 +61,7 @@
     font-size: 20px;
   }
 
+
   /* HERO - end */
 
   /* Text - 2nd screen */
@@ -74,6 +75,8 @@
     padding-bottom: 100px;
     padding-left: 20px;
   }
+
+
 
   /* Text - 2nd screen - end */
 
@@ -173,6 +176,28 @@
   }
 
   /* Hvofor.2 - 5d screen - end */
+
+ /* Vores teater - 6d screen */
+
+ .teater-text {
+padding: 40px 20px;
+ }
+
+.teater-text h2 {
+  font-size: 40px;
+}
+
+.teater-text p {
+  font-size: 22px;
+}
+
+.teater-text a {
+  font-size: 22px;
+}
+
+
+    /* Vores teater - 6d screen - end */
+
 
   /* HOME-page - end */
 
