@@ -15,9 +15,9 @@
     font-weight: 600;
   }
 
-
   /* Home-page - Start */
 
+  
   /* HERO - :start */
 
   .hero-top {
@@ -51,36 +51,70 @@
   }
 
   .hero-top-text ul li {
-      margin-bottom: 10px;
-      font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
   }
-
 
   /* HERO - end */
 
-/* Text - 2nd screen */
+  /* Text - 2nd screen */
 
-
-.hero-bottom-text {
+  .hero-bottom-text {
     font-size: 26px;
     line-height: 1.5;
-}
+  }
 
-.hero-bottom {
+  .hero-bottom {
     padding-bottom: 100px;
     padding-left: 20px;
-}
-
+  }
 
   /* Text - 2nd screen - end */
 
+  /* Hvem - 3d screen */
+.hvem {
+  padding: 60px 0 60px 20px;
+}
+
+.hvem-section {
+  flex-direction: column-reverse;
+    padding: 60px 20px 60px 20px;
+}
+
+.hvem-section-text {
+  width: 100%;
+  height: 100%;
+  padding-right: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 
+.hvem-section-text h2 {
+  font-size: 40px;
+
+}
+
+.hvem-section-text ul {
+  padding: 60px 30px 20px 30px;
+}
+
+.hvem-section-text ul li {
+  margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hvem-section img {
+  width: 100%;
+  height: 300px;
+margin-bottom: 60px;
+
+}
 
 
+  /* Hvem - 3d screen - end */
 
   /* Home-page - end */
-
-
-
 }

@@ -241,7 +241,6 @@ p {
 
 .hvem {
   border-top: solid 10px #db8127;
-  padding: 80px 0;
   background-color: var(--color-dark-blue);
 }
 
@@ -251,6 +250,7 @@ p {
   color: var(--background-color-light);
   display: flex;
   justify-content: space-between;
+    padding: 80px 20px 80px 20px;
 }
 
 .hvem-section-text {
