@@ -51,25 +51,25 @@
   }
 
   .hero-top-text ul li {
-      margin-bottom: 10px;
-      font-size: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
   }
 
 
   /* HERO - end */
 
-/* Text - 2nd screen */
+  /* Text - 2nd screen */
 
 
-.hero-bottom-text {
+  .hero-bottom-text {
     font-size: 26px;
     line-height: 1.5;
-}
+  }
 
-.hero-bottom {
+  .hero-bottom {
     padding-bottom: 100px;
     padding-left: 20px;
-}
+  }
 
 
   /* Text - 2nd screen - end */
@@ -81,6 +81,43 @@
 
   /* Home-page - end */
 
+  /* Om Skarntyden start */
 
+  /* Hero section */
+
+  .hero-top-text-om-h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 120px 0px 40px 20px;
+  }
+
+  /* Text info one */
+
+  .text-info-one-text {
+    padding: 90px 20px;
+  }
+
+  /* One image section */
+
+  .one-image-info-container {
+    flex-direction: column;
+    padding: 40px 20px 0 20px;
+  }
+
+  .one-image-info-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .one-image-info-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  .one-image-info-image {
+    height: 380px;
+    width: var(--width-12col);
+  }
 
 }
