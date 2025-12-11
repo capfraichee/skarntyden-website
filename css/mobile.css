@@ -61,7 +61,6 @@
     font-size: 20px;
   }
 
-
   /* HERO - end */
 
   /* Text - 2nd screen */
@@ -75,8 +74,6 @@
     padding-bottom: 100px;
     padding-left: 20px;
   }
-
-
 
   /* Text - 2nd screen - end */
 
@@ -124,10 +121,9 @@
 
   /* Hvofor.1 - 4d screen */
 
-        .hvorfor {
-          height: 700px;
-
-        }
+  .hvorfor {
+    height: 700px;
+  }
 
   .hvorfor-top {
     height: 100%;
@@ -172,44 +168,46 @@
   .hvorfor-section ul li {
     width: 100%;
     min-height: 200px;
-      font-size: 22px;
+    font-size: 22px;
   }
 
   /* Hvofor.2 - 5d screen - end */
 
- /* Vores teater - 6d screen */
+  /* Vores teater - 6d screen */
 
- .teater-text {
-padding: 40px 20px;
- }
+  .teater-text {
+    padding: 40px 20px;
+  }
 
-.teater-text h2 {
-  font-size: 40px;
-}
+  .teater-text h2 {
+    font-size: 40px;
+  }
 
-.teater-text p {
-  font-size: 22px;
-}
+  .teater-text p {
+    font-size: 22px;
+  }
 
-.teater-text a {
-  font-size: 22px;
-}
+  .teater-text a {
+    font-size: 22px;
+  }
 
-.teater-foto {
-  height: fit-content;
-display: flex;
-flex-wrap: wrap;
-}
+  .teater-foto {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.teater-foto-2column,
-.teater-foto-4column {
-  display: none;
-}
+  .teater-foto-2column,
+  .teater-foto-4column {
+    display: none;
+  }
 
-    /* Vores teater - 6d screen - end */
-
+  /* Vores teater - 6d screen - end */
 
   /* HOME-page - end */
+
+
+  
 
   /* Om Skarntyden start */
 
