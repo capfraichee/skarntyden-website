@@ -98,7 +98,7 @@
   }
 
   .hvem-section-text h2 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .hvem-section-text ul {
@@ -119,12 +119,18 @@
 
   /* Hvem - 3d screen - end */
 
-  /* Hvofor - 4d screen */
+  /* Hvofor.1 - 4d screen */
+
+        .hvorfor {
+          height: 700px;
+
+        }
 
   .hvorfor-top {
-    height: 700px;
-    padding: 120px 0 0 0;
+    height: 100%;
+    padding: 100px 0 0 0;
     align-items: center;
+    width: 100%;
   }
 
   .hvorfor-top-text {
@@ -138,10 +144,9 @@
   }
 
   .hvorfor-top-text h2 {
-    font-size: 55px;
+    font-size: 38px;
     text-align: center;
     background-color: #1b1e2e60;
-    color: var (--color-orange);
   }
 
   .hvorfor-top-text-p-dn {
@@ -154,6 +159,20 @@
   }
 
   /* Hvofor - 4d screen - end */
+
+  /* Hvofor.2 - 5d screen */
+
+  .hvorfor-section ul {
+    flex-direction: column;
+  }
+
+  .hvorfor-section ul li {
+    width: 100%;
+    min-height: 200px;
+      font-size: 22px;
+  }
+
+  /* Hvofor.2 - 5d screen - end */
 
   /* HOME-page - end */
 
