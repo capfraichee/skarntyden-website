@@ -1,0 +1,68 @@
+@media (width < 501px) {
+  :root {
+    --width-12col: 100%;
+
+    --grid-gap: 16px;
+  }
+
+  body,
+  html {
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+
+  /* Home-page - Start */
+
+  /* HERO - :start */
+
+  .hero-top {
+    height: 720px;
+  }
+
+  .hero-top-text {
+    padding: 170px 0px 40px 20px;
+  }
+
+  .hero-top-text-upp {
+    font-size: 16px;
+    margin-bottom: -8;
+  }
+
+  .hero-top-text h1 {
+    font-size: 55px;
+    margin-bottom: 0;
+    line-height: 1.1;
+    margin-bottom: 10px;
+  }
+
+  .hero-top-text h1 span {
+    font-size: 45px;
+  }
+
+  .hero-top-text h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 65%;
+  }
+
+  .hero-top-text ul li {
+      margin-bottom: 10px;
+      font-size: 20px;
+  }
+
+
+  /* HERO - end */
+
+
+  
+
+  /* Home-page - end */
+
+
+
+}
