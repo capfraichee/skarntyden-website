@@ -195,6 +195,16 @@ padding: 40px 20px;
   font-size: 22px;
 }
 
+.teater-foto {
+  height: fit-content;
+display: flex;
+flex-wrap: wrap;
+}
+
+.teater-foto-2column,
+.teater-foto-4column {
+  display: none;
+}
 
     /* Vores teater - 6d screen - end */
 

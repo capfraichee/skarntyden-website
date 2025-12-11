@@ -422,7 +422,8 @@ p {
 .teater-foto {
   width: var(--width-12col);
   height: 550px;
-  margin: 20px auto 60px auto;
+  margin: 0 auto;
+  padding: 0 20px 60px 20px;
   display: grid;
   gap: var(--grid-gap);
   grid-template-columns: repeat(12, 1fr);
