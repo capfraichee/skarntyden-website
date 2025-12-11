@@ -304,7 +304,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 440px 0 0 0;
+  padding: 440px 20px 0 20px;
   align-items: center;
 }
 
@@ -341,13 +341,14 @@ p {
 
 /* Hvorfor2  - 5d block*/
 
+
 .hvorfor ul {
   width: var(--width-12col);
   margin: 0 auto;
   display: flex;
   color: var(--color-dark);
   justify-content: space-between;
-  padding: 60px 0;
+  padding: 60px 20px;
   gap: var(--grid-gap);
   flex-wrap: nowrap;
 }

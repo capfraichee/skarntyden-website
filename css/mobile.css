@@ -1,8 +1,15 @@
 @media (width < 501px) {
   :root {
     --width-12col: 100%;
-
     --grid-gap: 16px;
+    --padding-default: 20px;
+
+    /* Color swatches */
+    --background-color-navigation: #0000003e;
+    --background-color-light: #ededed;
+    --color-dark: #1b1e2e;
+    --color-orange: #db8127;
+    --color-dark-blue: #1f3646;
   }
 
   body,
@@ -112,7 +119,80 @@
 
   /* Hvem - 3d screen - end */
 
+  /* Hvofor - 4d screen */
 
-  /* Home-page - end */
+  .hvorfor-top {
+    height: 700px;
+    padding: 120px 0 0 0;
+    align-items: center;
+  }
 
+  .hvorfor-top-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--background-color-light);
+
+    flex-grow: 2;
+    padding-bottom: 40px;
+  }
+
+  .hvorfor-top-text h2 {
+    font-size: 55px;
+    text-align: center;
+    background-color: #1b1e2e60;
+    color: var (--color-orange);
+  }
+
+  .hvorfor-top-text-p-dn {
+    display: none;
+  }
+
+  .hvorfor-top-text-p-mob {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /* Hvofor - 4d screen - end */
+
+  /* HOME-page - end */
+
+  /* Om Skarntyden start */
+
+  /* Hero section */
+
+  .hero-top-text-om-h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 120px 0px 40px 20px;
+  }
+
+  /* Text info one */
+
+  .text-info-one-text {
+    padding: 90px 20px;
+  }
+
+  /* One image section */
+
+  .one-image-info-container {
+    flex-direction: column;
+    padding: 40px 20px 0 20px;
+  }
+
+  .one-image-info-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .one-image-info-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  .one-image-info-image {
+    height: 380px;
+    width: var(--width-12col);
+  }
 }
