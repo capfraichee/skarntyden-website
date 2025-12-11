@@ -215,10 +215,12 @@ p {
   width: var(--width-12col);
   margin: 0 auto;
   padding-bottom: 160px;
+  padding-left: var(--padding-default);
+    padding-right: var(--padding-default);
 }
 
 .hero-bottom-text {
-  padding: 60px 0;
+  padding: 60px 0px;
   color: var(--background-color-light);
   font-family: 'Inter';
   font-size: 36px;
