@@ -1,0 +1,212 @@
+@media (min-width: 501px) and (max-width: 1199px) {
+  :root {
+    --width-12col: 100%;
+    --grid-gap: 24px;
+    --padding-default: 20px;
+
+    /* Color swatches */
+    --background-color-navigation: #0000003e;
+    --background-color-light: #ededed;
+    --color-dark: #1b1e2e;
+    --color-orange: #db8127;
+    --color-dark-blue: #1f3646;
+  }
+
+  .button {
+    font-size: 22px;
+  }
+
+  /* Home-page - Start */
+
+  /* HERO - :start */
+
+  .hero-top {
+    height: 800px;
+  }
+
+  .hero-top-text {
+    padding: 200px 0px 60px 20px;
+  }
+
+  .hero-top-text-upp {
+    font-size: 20px;
+    margin-bottom: -4;
+  }
+
+  .hero-top-text h1 {
+    font-size: 80px;
+    margin-bottom: 0;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+
+  .hero-top-text h1 span {
+    font-size: 65px;
+  }
+
+  .hero-top-text h3 {
+    font-size: 24px;
+    margin-bottom: 60px;
+    width: 65%;
+  }
+
+  .hero-top-text ul li {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  /* HERO - end */
+
+  /* Text - 2nd screen */
+
+  .hero-bottom-text {
+    font-size: 24px;
+    line-height: 1.5;
+  }
+
+  .hero-bottom {
+    padding-bottom: 120px;
+    padding-left: 20px;
+  }
+
+  /* Text - 2nd screen - end */
+
+  /* Hvem - 3d screen */
+
+  .hvem {
+    padding: 20px 0 0 20px;
+  }
+
+  .hvem-section {
+    flex-direction: column-reverse;
+    padding: 40px 20px 40px 0;
+  }
+
+  .hvem-section-text {
+    width: 100%;
+    height: 100%;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .hvem-section-text h2 {
+    font-size: 38px;
+  }
+
+  .hvem-section-text ul {
+    padding: 60px 30px 0 30px;
+  }
+
+  .hvem-section-text ul li {
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .hvem-section img {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 60px;
+  }
+
+  /* Hvem - 3d screen - end */
+
+  /* Hvofor.1 - 4d screen */
+
+  .hvorfor {
+    height: 700px;
+  }
+
+  .hvorfor-top {
+    height: 100%;
+    padding: 100px 0 0 0;
+    align-items: center;
+    width: 100%;
+  }
+
+  .hvorfor-top-text {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    color: var(--background-color-light);
+
+    flex-grow: 2;
+    padding-bottom: 40px;
+  }
+
+  .hvorfor-top-text h2 {
+    font-size: 38px;
+    text-align: center;
+    background-color: #1b1e2e60;
+  }
+
+  .hvorfor-top-text-p-dn {
+    display: none;
+  }
+
+  .hvorfor-top-text-p-mob {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  /* Hvofor - 4d screen - end */
+
+  /* Hvofor.2 - 5d screen */
+
+  .hvorfor-section ul {
+    gap: 16px;
+  }
+
+  .hvorfor-section ul li {
+    font-size: 24px;
+    padding: 60px 16px;
+  }
+
+  /* Hvofor.2 - 5d screen - end */
+
+  /* Vores teater - 6d screen */
+
+  .teater-text {
+    padding: 40px 20px;
+  }
+
+  .teater-text h2 {
+    font-size: 40px;
+  }
+
+  .teater-text p {
+    font-size: 24px;
+  }
+
+  .teater-text a {
+    font-size: 24px;
+  }
+
+  .teater-foto {
+    display: grid;
+    gap: 16px;
+  }
+
+  .teater-foto-1column {
+    grid-column: 1 / span 6;
+  }
+
+  .teater-foto-2column {
+    display: none;
+  }
+
+  .teater-foto-3column {
+    grid-column: 7 / span 3;
+    gap: 16px;
+  }
+
+  .teater-foto-4column {
+    grid-column: 10 / span 3;
+  }
+
+  /* Vores teater - 6d screen - end */
+
+  /* HOME-page - end */
+}
