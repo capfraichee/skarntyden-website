@@ -209,4 +209,105 @@
   /* Vores teater - 6d screen - end */
 
   /* HOME-page - end */
+
+
+  /* Om Skarntyden start */
+
+  /* Hero section */
+
+  .hero-top-text-om-h1 {
+    text-align: center;
+    font-size: 35px;
+    padding: 120px 0px 40px 20px;
+  }
+
+  /* Text info one */
+
+  .text-info-one-text {
+    padding: 90px 20px;
+  }
+
+  /* One image section */
+
+  .one-image-info-container {
+    flex-direction: column;
+    padding: 40px 20px 0 20px;
+  }
+
+  .one-image-info-container h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+
+  .one-image-info-container p {
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+
+  .one-image-info-image {
+    height: 380px;
+    width: var(--width-12col);
+  }
+
+
+  /* Multiple image section */
+
+  .multiple-image-info {
+    height: 750px;
+  }
+
+  .multiple-image-info-container {
+    padding: 40px 20px 0 20px;
+    height: 750px;
+  }
+
+  .multiple-image-container-text-one h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .multiple-image-container-text-one p {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .multiple-image-container-image {
+    height: 300px;
+  }
+
+  .multiple-image-container-image-one,
+  .multiple-image-container-image-two {
+    width: 50%;
+    height: 300px;
+  }
+
+  .multiple-image-container-image-three {
+    display: none;
+  }
+
+  .multiple-image-container-text-two h4 {
+    font-size: 18px;
+  }
+
+  /* No image info two */
+
+  .no-image-section-two {
+    height: auto;
+  }
+
+  .no-image-section-two-container {
+    padding: 30px 20px;
+  }
+  .no-image-section-two-container h3{
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .no-image-section-two-container p{
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+
 }
+
