@@ -25,6 +25,10 @@
 
   /* Navigation */
 
+  .navigaion {
+    width: 500px;
+  }
+
   .menu-container ul {
     display: flex;
     align-items: center;
@@ -245,6 +249,138 @@
   /* HOME-page - end */
 
 
+  /* Praktisk Info start */
+
+  /* Hero section start */
+
+  .info-hero {
+    width: 500px;
+  }
+
+  .info-hero-text {
+    width: 500px;
+    padding: 0 20px;
+  }
+
+  .info-hero-text h1 {
+    font-size: 55px;
+    padding: 0 20px;
+  }
+
+  /* Info detail section */
+
+  .info-details {
+    height: 650px;
+    width: 500px;
+  }
+
+  .info-details-container {
+    padding: 0 20px;
+    height: 550px;
+  }
+
+  .info-details-container-text {
+    flex-direction: column;
+  }
+
+  .info-details-item {
+    padding: 10px 0 0 0;
+  }
+
+  .info-details-item h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .info-details-item p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .info-details-container-box {
+    flex-direction: column;
+  }
+
+  .info-details-container-box-image {
+    display: none;
+  }
+
+  .info-details-container-box-text {
+    display: none;
+  }
+
+  .info-details-container-ticket {
+    display: none;
+  }
+
+
+  /* FAQ section */
+
+
+  .faq,
+  .faq-text {
+    width: 500px;
+    padding: 0 45px 0 20px;
+  }
+
+  .faq-text h3 {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+  .faq-text h5 {
+    font-size: 25px;
+  }
+
+  .faq-text p {
+    font-size: 20px;
+  }
+
+  .faq-text ul li {
+    font-size: 20px;
+
+  }
+
+
+  /* find os section */
+
+  .find-os {
+    justify-content: center;
+    width: 500px;
+  }
+
+  .find-os-embed-map {
+    display: none;
+  }
+
+  .find-os-text-one h3 {
+    padding: 0 20px;
+    font-size: 25px;
+  }
+
+  .find-os-text-one p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .find-os-embed-map {
+    padding: 0 20px;
+    width: 400px;
+  }
+
+  .find-os-text-two p {
+    font-size: 20px;
+    padding: 0 20px;
+    width: 450px;
+  }
+
+  .find-os-ticket-buy {
+    justify-content: center;
+    margin:0 auto;
+  }
+
+  /* Praktisk Info end */
 
 
   /* Om Skarntyden start */

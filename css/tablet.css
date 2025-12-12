@@ -286,13 +286,43 @@
     font-size: 45px;
     margin-bottom: 30px;
   }
-  
+
   .no-image-section-two-container p{
     font-size: 25px;
     line-height: 1.5;
   }
 
   /* Om Skarntyden end */
+
+
+  /* Praktisk info start*/
+  
+
+  /* Hero section */
+
+  .info-hero-container {
+    padding: 0 70px 0 30px;
+  }
+
+  /* Info details */
+  .info-details {
+    padding: 0 70px 0 20px;
+  }
+
+
+  /* FAQ */
+  .faq-text {
+    padding: 50px 20px 0 20px;
+  }
+
+  /* Find os */
+  .find-os-text-one,
+  .find-os-text-two {
+    padding: 0 20px;
+  }
+
+
+
 
   /* Footer */
   .footer-boxes {
