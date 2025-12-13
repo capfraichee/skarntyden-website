@@ -135,7 +135,7 @@ p {
 }
 
 .hero-top {
-  background-image: url('/img/brodrene_lovehjerte_skarntyden.jpg');
+  background-image: url('../img/brodrene_lovehjerte_skarntyden.jpg');
   height: fit-content;
   background-size: cover;
   background-position: center center;
@@ -278,7 +278,7 @@ p {
 /*Hvorfor1 -  4d block*/
 
 .hvorfor {
-  background-image: url('/img/born-besejrer-dragen_skarntyden.png');
+  background-image: url("../img/born-besejrer-dragen_skarntyden.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -561,7 +561,7 @@ transform: scale(1.1);
 
 .praktisk-info-forside {
   width: var(--width-12col);
-  background-image: url('/img/praktiskinfo-skarntyden.png');
+  background-image: url('img/praktiskinfo-skarntyden.png');
   height: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
@@ -677,7 +677,7 @@ transform: scale(1.1);
 
 .info-details-container-box-image {
   width: 50%;
-  background-image: url(../img/brødrene_løvehjerte_skarntyden.jpg);
+  background-image: url('../img/brødrene_løvehjerte_skarntyden.jpg');
   height: 360px;
   background-position: center;
   background-size: cover;
