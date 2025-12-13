@@ -22,6 +22,48 @@
     font-weight: 600;
   }
 
+
+  /* Navigation */
+
+  .navigaion {
+    width: 500px;
+  }
+
+  .menu-container ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-container ul li a {
+    padding: 8px 12px;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-container ul li:last-child {
+    display: none;
+  }
+
+
+
+  /* Footer start */
+
+  .footer {
+    height: 140px;
+  }
+
+  .footer-boxes {
+    padding: 0 20px;
+  }
+
+  .footer-box-three-list ul li a {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+
   /* Home-page - Start */
 
   /* HERO - :start */
@@ -207,7 +249,139 @@
   /* HOME-page - end */
 
 
-  
+  /* Praktisk Info start */
+
+  /* Hero section start */
+
+  .info-hero {
+    width: 500px;
+  }
+
+  .info-hero-text {
+    width: 500px;
+    padding: 0 20px;
+  }
+
+  .info-hero-text h1 {
+    font-size: 55px;
+    padding: 0 20px;
+  }
+
+  /* Info detail section */
+
+  .info-details {
+    height: 650px;
+    width: 500px;
+  }
+
+  .info-details-container {
+    padding: 0 20px;
+    height: 550px;
+  }
+
+  .info-details-container-text {
+    flex-direction: column;
+  }
+
+  .info-details-item {
+    padding: 10px 0 0 0;
+  }
+
+  .info-details-item h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .info-details-item p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+
+  .info-details-container-box {
+    flex-direction: column;
+  }
+
+  .info-details-container-box-image {
+    display: none;
+  }
+
+  .info-details-container-box-text {
+    display: none;
+  }
+
+  .info-details-container-ticket {
+    display: none;
+  }
+
+
+  /* FAQ section */
+
+
+  .faq,
+  .faq-text {
+    width: 500px;
+    padding: 0 45px 0 20px;
+  }
+
+  .faq-text h3 {
+    font-size: 40px;
+    padding-top: 10px;
+  }
+
+  .faq-text h5 {
+    font-size: 25px;
+  }
+
+  .faq-text p {
+    font-size: 20px;
+  }
+
+  .faq-text ul li {
+    font-size: 20px;
+
+  }
+
+
+  /* find os section */
+
+  .find-os {
+    justify-content: center;
+    width: 500px;
+  }
+
+  .find-os-embed-map {
+    display: none;
+  }
+
+  .find-os-text-one h3 {
+    padding: 0 20px;
+    font-size: 25px;
+  }
+
+  .find-os-text-one p {
+    font-size: 20px;
+    padding: 0 20px;
+  }
+
+  .find-os-embed-map {
+    padding: 0 20px;
+    width: 400px;
+  }
+
+  .find-os-text-two p {
+    font-size: 20px;
+    padding: 0 20px;
+    width: 450px;
+  }
+
+  .find-os-ticket-buy {
+    justify-content: center;
+    margin:0 auto;
+  }
+
+  /* Praktisk Info end */
+
 
   /* Om Skarntyden start */
 
@@ -247,4 +421,66 @@
     height: 380px;
     width: var(--width-12col);
   }
+
+
+  /* Multiple image section */
+
+  .multiple-image-info {
+    height: 750px;
+  }
+
+  .multiple-image-info-container {
+    padding: 40px 20px 0 20px;
+    height: 750px;
+  }
+
+  .multiple-image-container-text-one h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
+  }
+
+  .multiple-image-container-text-one p {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+
+  .multiple-image-container-image {
+    height: 300px;
+  }
+
+  .multiple-image-container-image-one,
+  .multiple-image-container-image-two {
+    width: 50%;
+    height: 300px;
+  }
+
+  .multiple-image-container-image-three {
+    display: none;
+  }
+
+  .multiple-image-container-text-two h4 {
+    font-size: 18px;
+  }
+
+  /* No image info two */
+
+  .no-image-section-two {
+    height: auto;
+  }
+
+  .no-image-section-two-container {
+    padding: 30px 20px;
+  }
+
+  .no-image-section-two-container h3 {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+
+  .no-image-section-two-container p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+
 }
