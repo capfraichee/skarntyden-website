@@ -62,53 +62,43 @@ p {
   font-weight: 600;
   list-style: none;
   text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.button:hover {
+.button:hover,
+.button:focus-visible {
   color: #ffffff;
-    box-shadow: -4px 6px 20px 0 #00000040;
-    border: solid 1px #AF671F;
+  box-shadow: -4px 6px 20px 0 #00000040;
+  border: solid 1px #af671f;
+  transform: scale(1.04);
 }
 
-/* .container {
-  display: grid;
-  grid-template-rows: auto;
-  gap: var(--grid-gap);
-  width: var(--width-full);
-}
-
-.navigation,
-.footer {
-  width: var(--width-full);
-} */
-
-/* Navigation start */
-
+/* header start */
 
 .container {
   width: var(--width-full);
   height: 100px;
   background-color: var(--background-color-navigation);
-    display: flex;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   position: absolute;
 }
 
 .container-menu {
-width: var(--width-12col);
+  width: var(--width-12col);
   margin: 0 auto;
   padding: 0 20px 0 20px;
-    display: flex;
-      align-items: center;
-      justify-content: space-between; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-navigation ul {
   display: flex;
   align-items: center;
-justify-content: flex-start;
-gap: var(--grid-gap);
+  justify-content: flex-start;
+  gap: var(--grid-gap);
 }
 
 .header-navigation ul a {
@@ -116,9 +106,10 @@ gap: var(--grid-gap);
   text-transform: capitalize;
   color: var(--background-color-light);
   font-size: 25px;
-  font-weight: 600;
-display: flex;
-align-items: center;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .header-navigation p {
@@ -128,11 +119,11 @@ align-items: center;
   font-weight: 600;
 }
 
-.header-navigation ul a:hover {
+.header-navigation ul a:hover,
+.header-navigation ul a:focus-visible {
   color: #ffffff;
-  text-decoration: underline;
+  transform: translateY(-1.5px);
 }
-
 
 /* Navigation End */
 
@@ -144,7 +135,7 @@ align-items: center;
 }
 
 .hero-top {
-  background-image: url(/img/brødrene_løvehjerte_skarntyden.jpg);
+  background-image: url('/img/brodrene_lovehjerte_skarntyden.jpg');
   height: fit-content;
   background-size: cover;
   background-position: center center;
@@ -287,7 +278,7 @@ align-items: center;
 /*Hvorfor1 -  4d block*/
 
 .hvorfor {
-  background-image: url(/img/børn-besejrer-dragen_skarntyden.png);
+  background-image: url('/img/born-besejrer-dragen_skarntyden.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -362,6 +353,12 @@ align-items: center;
   font-size: 30px;
   gap: var(--grid-gap);
   border-radius: 5px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.hvorfor-section ul li:hover,
+.hvorfor-section ul li:focus-visible {
+transform: scale(1.1);
 }
 
 .hvorfor-persone-p {
@@ -385,7 +382,7 @@ align-items: center;
 .teater-text {
   width: var(--width-12col);
   margin: 0 auto;
-    padding: 60px 20px;
+  padding: 60px 20px;
 }
 
 .teater-text h2 {
@@ -407,9 +404,11 @@ align-items: center;
   font-size: 30px;
   font-weight: 500;
   color: var(--color-orange);
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.teater-text a:hover {
+.teater-text a:hover,
+.teater-text a:focus-visible {
   color: var(--color-dark-blue);
 }
 
@@ -430,6 +429,12 @@ align-items: center;
   object-position: center;
   height: 100%;
   width: 100%;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.teater-foto img:focus-visible,
+.teater-foto img:hover {
+  transform: scale(1.1);
 }
 
 .teater-foto-1column {
@@ -461,89 +466,88 @@ align-items: center;
 /* Footer Start */
 
 .footer {
-  background-color: var(--color-dark);
-  height: 195px;
-  border-top: 15px solid var(--color-orange);
+  min-height: 200px;
+  border-top: 20px solid var(--color-orange);
+  width: var(--width-full);
 }
 
 .footer-boxes {
   width: var(--width-12col);
   height: 100%;
   margin: 0 auto;
-  display: flex;
-  flex-direction: row;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.6fr 1fr 0.8fr;
+  gap: var(--grid-gap);
+  place-items: center;
+  justify-items: stretch;
 }
 
-.footer-box-one,
-.footer-box-two,
-.footer-box-three,
-.footer-box-four {
-  width: 25%;
-  height: 100%;
+.footer-box-one img,
+.footer-box-four img {
+  width: 100%;
+  display: block;
 }
 
-.footer-box-one {
-  width: var(--width-12col);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  width: 25%;
+.footer-logo {
+  display: inline-block;
+  transition:  transform 0.2s ease;
 }
 
-.footer-box-one-img {
-  background-image: url('../img/skarntyden.png');
-  height: 50px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.footer-logo:hover,
+.footer-logo:focus-visible {
+  transform: scale(1.04);
+  opacity: 0.9;
 }
 
 .footer-box-two {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: var(--grid-gap);
 }
 
-.footer-box-two svg {
+.footer-box-two a {
   color: var(--background-color-light);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.footer-box-two a:hover,
+.footer-box-two a:focus-visible {
+  color: var(--color-orange);
+  transform: scale(1.08);
 }
 
 .footer-box-three {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
-.footer-box-three-list ul {
+.footer-box-three ul {
   list-style: none;
 }
 
-.footer-box-three-list ul li a {
-  padding: 0 36px 0 0;
+.footer-box-three ul li a {
+  display: inline-block;
   text-decoration: none;
   color: var(--background-color-light);
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 400;
-  line-height: 40px;
+  line-height: 1.5;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.footer-box-four {
-  width: var(--width-12col);
-  height: 100%;
-  display: flex;
-  align-items: center;
-  width: 25%;
-  justify-content: end;
-}
-
-.footer-box-four-img {
-  background-image: url('../img/musikhuset-esbjerg.png');
-  height: 50px;
-  width: 200px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+.footer-box-three ul li a:hover,
+.footer-box-three ul li a:focus-visible {
+  color: var(--color-orange);
+  transform: translateY(-1.5px);
 }
 
 /* Footer End */
@@ -557,13 +561,11 @@ align-items: center;
 
 .praktisk-info-forside {
   width: var(--width-12col);
-  background-image: url('../img/praktiskinfo-skarntyden.png');
+  background-image: url('/img/praktiskinfo-skarntyden.png');
   height: 100%;
   margin: 0 auto;
   background-repeat: no-repeat;
 }
-
-/* Footer End */
 
 /* Praktisk info side start */
 
