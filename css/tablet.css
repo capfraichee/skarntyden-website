@@ -127,9 +127,9 @@
   }
 
   .hvorfor-top-text {
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; */
+    justify-content: space-between;
     color: var(--background-color-light);
 
     flex-grow: 2;
