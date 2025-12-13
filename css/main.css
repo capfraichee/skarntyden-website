@@ -278,7 +278,7 @@ p {
 /*Hvorfor1 -  4d block*/
 
 .hvorfor {
-  background-image: url("../img/born-besejrer-dragen_skarntyden.png");
+  background-image: url('../img/born-besejrer-dragen_skarntyden.png');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -358,7 +358,7 @@ p {
 
 .hvorfor-section ul li:hover,
 .hvorfor-section ul li:focus-visible {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .hvorfor-persone-p {
@@ -469,6 +469,8 @@ transform: scale(1.1);
   min-height: 200px;
   border-top: 20px solid var(--color-orange);
   width: var(--width-full);
+  display: flex;
+  align-items: center;
 }
 
 .footer-boxes {
@@ -491,7 +493,7 @@ transform: scale(1.1);
 
 .footer-logo {
   display: inline-block;
-  transition:  transform 0.2s ease;
+  transition: transform 0.2s ease;
 }
 
 .footer-logo:hover,

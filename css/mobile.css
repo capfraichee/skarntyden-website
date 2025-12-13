@@ -50,16 +50,47 @@
   /* Footer start */
 
   .footer {
-    height: 140px;
+    align-items: flex-end;
   }
 
   .footer-boxes {
-    padding: 0 20px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: var(--grid-gap);
   }
 
-  .footer-box-three-list ul li a {
-    font-size: 12px;
-    line-height: 20px;
+  .footer-box-two {
+    gap: 40px;
+  }
+
+  .footer-box-three ul li a {
+    font-size: 20px;
+    line-height: 2.3;
+  }
+
+  .footer-box-one {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .footer-box-two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .footer-box-three {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .footer-box-four {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .footer-box-one img,
+  .footer-box-four img {
+    width: 80%;
   }
 
   /* Home-page - Start */

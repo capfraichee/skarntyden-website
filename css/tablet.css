@@ -214,12 +214,13 @@
   }
 
   .teater-foto-2column {
-    display: none;
+        grid-column: 7 / span 3;
+          gap: 16px;
+
   }
 
   .teater-foto-3column {
-    grid-column: 7 / span 3;
-    gap: 16px;
+    display: none;
   }
 
   .teater-foto-4column {
@@ -229,6 +230,38 @@
   /* Vores teater - 6d screen - end */
 
   /* HOME-page - end */
+
+
+/* footer */
+
+.footer-box-three ul li a {
+font-size: 18px;
+}
+
+/* footer-end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   /* Om Skarntyden start */
 
@@ -333,11 +366,6 @@
   /* Find os */
   .find-os-text-one,
   .find-os-text-two {
-    padding: 0 20px;
-  }
-
-  /* Footer */
-  .footer-boxes {
     padding: 0 20px;
   }
 }
