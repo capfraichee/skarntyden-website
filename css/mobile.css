@@ -1,4 +1,4 @@
-@media (width < 501px) {
+@media (width < 601px) {
   :root {
     --width-12col: 100%;
     --grid-gap: 16px;
@@ -22,31 +22,29 @@
     font-weight: 600;
   }
 
-
-  /* Navigation */
-
-  .navigaion {
-    width: 500px;
+  /* Header */
+  .container {
+    height: 80px;
   }
 
-  .menu-container ul {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .header-navigation ul {
+    gap: 16px;
   }
 
-  .menu-container ul li a {
-    padding: 8px 12px;
-    font-size: 18px;
-    align-items: center;
-    justify-content: center;
+  .header-navigation ul a {
+    font-size: 20px;
+    font-weight: 500;
   }
 
-  .menu-container ul li:last-child {
+  .header-navigation p {
+    font-size: 20px;
+  }
+
+  .button {
     display: none;
   }
 
-
+  /* Header-end */
 
   /* Footer start */
 
@@ -63,7 +61,6 @@
     line-height: 20px;
   }
 
-
   /* Home-page - Start */
 
   /* HERO - :start */
@@ -78,13 +75,13 @@
 
   .hero-top-text-upp {
     font-size: 16px;
-    margin-bottom: -8;
+    margin-bottom: 0;
   }
 
   .hero-top-text h1 {
     font-size: 55px;
     margin-bottom: 0;
-    line-height: 1.1;
+    line-height: 1;
     margin-bottom: 10px;
   }
 
@@ -248,7 +245,6 @@
 
   /* HOME-page - end */
 
-
   /* Praktisk Info start */
 
   /* Hero section start */
@@ -314,9 +310,7 @@
     display: none;
   }
 
-
   /* FAQ section */
-
 
   .faq,
   .faq-text {
@@ -339,9 +333,7 @@
 
   .faq-text ul li {
     font-size: 20px;
-
   }
-
 
   /* find os section */
 
@@ -377,11 +369,10 @@
 
   .find-os-ticket-buy {
     justify-content: center;
-    margin:0 auto;
+    margin: 0 auto;
   }
 
   /* Praktisk Info end */
-
 
   /* Om Skarntyden start */
 
@@ -421,7 +412,6 @@
     height: 380px;
     width: var(--width-12col);
   }
-
 
   /* Multiple image section */
 
@@ -481,6 +471,4 @@
     font-size: 20px;
     line-height: 1.5;
   }
-
-
 }

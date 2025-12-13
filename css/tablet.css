@@ -1,4 +1,4 @@
-@media (min-width: 501px) and (max-width: 1199px) {
+@media (min-width: 601px) and (max-width: 1199px) {
   :root {
     --width-12col: 100%;
     --grid-gap: 24px;
@@ -13,8 +13,29 @@
   }
 
   .button {
-    font-size: 22px;
+    font-size: 20px;
+    padding: 10px 20px;
   }
+
+
+  /* HEADER */
+  .container-menu {
+    padding: 0 15px 0 15px;
+  }
+
+  .header-navigation ul {
+    gap: 16px;
+  }
+
+  .header-navigation ul a {
+    font-size: 20px;
+  }
+
+  .header-navigation p {
+        font-size: 20px;
+  }
+
+  /* Header-end */
 
   /* Home-page - Start */
 
@@ -210,7 +231,6 @@
 
   /* HOME-page - end */
 
-
   /* Om Skarntyden start */
 
   .hero-top-text-om-h1 {
@@ -249,7 +269,6 @@
     height: 606px;
   }
 
-
   /* Multiple image section */
 
   .multiple-image-info-container {
@@ -282,21 +301,19 @@
     padding: 30px 20px;
   }
 
-  .no-image-section-two-container h3{
+  .no-image-section-two-container h3 {
     font-size: 45px;
     margin-bottom: 30px;
   }
 
-  .no-image-section-two-container p{
+  .no-image-section-two-container p {
     font-size: 25px;
     line-height: 1.5;
   }
 
   /* Om Skarntyden end */
 
-
   /* Praktisk info start*/
-  
 
   /* Hero section */
 
@@ -309,7 +326,6 @@
     padding: 0 70px 0 20px;
   }
 
-
   /* FAQ */
   .faq-text {
     padding: 50px 20px 0 20px;
@@ -321,12 +337,8 @@
     padding: 0 20px;
   }
 
-
-
-
   /* Footer */
   .footer-boxes {
     padding: 0 20px;
   }
-
 }
