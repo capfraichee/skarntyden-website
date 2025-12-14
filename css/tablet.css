@@ -238,88 +238,7 @@
 
   /* footer-end */
 
-  /* Om Skarntyden start */
-
-  .hero-top-text-om-h1 {
-    font-size: 50px;
-  }
-
-  /* One image section */
-
-  .text-info-one-text {
-    padding: 90px 20px;
-  }
-
-  /* One image section */
-
-  .one-image-info {
-    height: 700px;
-  }
-
-  .one-image-info-container {
-    flex-direction: row;
-    padding: 40px 20px 0 20px;
-  }
-
-  .one-image-info-container h2 {
-    font-size: 45px;
-    margin-bottom: 40px;
-  }
-
-  .one-image-info-container p {
-    font-size: 25px;
-    margin-bottom: 25px;
-    line-height: 1.5;
-  }
-
-  .one-image-info-image {
-    height: 606px;
-  }
-
-  /* Multiple image section */
-
-  .multiple-image-info-container {
-    padding: 80px 20px;
-  }
-
-  .multiple-image-container-text-one h2 {
-    font-size: 45px;
-  }
-
-  .multiple-image-container-text-one p {
-    font-size: 25px;
-    margin-bottom: 25px;
-    line-height: 1.5;
-  }
-
-  .multiple-image-container-text-two h4 {
-    font-size: 25px;
-    margin-bottom: 25px;
-    line-height: 1.5;
-  }
-
-  /* No image info two */
-
-  .no-image-section-two {
-    height: 300px;
-  }
-
-  .no-image-section-two-container {
-    padding: 30px 20px;
-  }
-
-  .no-image-section-two-container h3 {
-    font-size: 45px;
-    margin-bottom: 30px;
-  }
-
-  .no-image-section-two-container p {
-    font-size: 25px;
-    line-height: 1.5;
-  }
-
-  /* Om Skarntyden end */
-
+ 
   /* Praktisk info start*/
 
   /* Hero section */
@@ -337,9 +256,10 @@
     font-size: 22px;
   }
 
-    .info-details-container-box {
-      flex-direction: column;
-    }
+  .info-details-container-box {
+    flex-direction: column;
+      margin-bottom: 60px;
+  }
 
   .info-details-container-box-image {
     width: 100%;
@@ -348,12 +268,13 @@
 
   .info-details-container-box-text {
     width: 100%;
-    font-size: 25px;
+    font-size: 22px;
   }
 
   /* FAQ */
-.faq-text {
-        padding: 60px 20px;}
+  .faq-text {
+    padding: 60px 20px;
+  }
 
   .faq-text h3 {
     font-size: 40px;
@@ -364,11 +285,11 @@
   }
 
   .faq-text p {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .faq-text ul li {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   /* Find os */
@@ -376,16 +297,119 @@
     height: 320px;
   }
 
-    .find-os-text-one h3 {
-      font-size: 40px;
+  .find-os-text-one h3 {
+    font-size: 40px;
+  }
+
+  .find-os-text-one p {
+    font-size: 22px;
+  }
+  .find-os-text-two p {
+    font-size: 22px;
+  }
+
+    .info-details-container-box-text p {
+      margin-bottom: 30px;
     }
 
-        .find-os-text-one p {
-          font-size: 25px;
-        }
-.find-os-text-two p {
-  font-size: 25px;
+ /* Om Skarntyden start */
+
+.hero-section-om {
+    min-height: 700px;
 }
+
+
+.hero-top-om {
+    padding: 130px 20px 0 20px;
+  }
+
+.hero-top-om h1 {
+   font-size: 25px;
+ }
+
+ /* One image section */
+
+ .text-info-one-text {
+   padding: 70px 20px;
+ }
+
+
+ .text-info-one-text p {
+   line-height: 1.5;
+   font-size: 25px;
+ }
+
+ /* One image section */
+
+ .one-image-info-container {
+   padding: 60px 20px;
+ }
+
+ .one-image-info-container h2 {
+   font-size: 30px;
+   margin-bottom: 40px;
+ }
+
+ .one-image-info-container p {
+   font-size: 25px;
+   margin-bottom: 25px;
+   line-height: 1.5;
+ }
+
+ /* Multiple image section */
+
+ .multiple-image-info-container {
+   padding: 60px 20px;
+ }
+
+ .multiple-image-container-text-one h2 {
+   font-size: 32px;
+ }
+
+ .multiple-image-container-text-one p {
+   font-size: 25px;
+   margin-bottom: 16px;
+      margin-top: 40px;
+   line-height: 1.5;
+ }
+
+ .multiple-image-container-text-two h4 {
+   font-size: 25px;
+   margin-bottom: 25px;
+   line-height: 1.5;
+ }
+
+ .multiple-image-container-image-three {
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+
+ /* No image info two */
+
+
+
+ .no-image-section-two-container {
+   padding: 60px 20px;
+ }
+
+ .no-image-section-two-container h3 {
+   font-size: 35px;
+   margin-bottom: 30px;
+ }
+
+ .no-image-section-two-container p {
+   font-size: 25px;
+   line-height: 1.5;
+ }
+
+
+
+
+
+
+ /* Om Skarntyden end */
+       
+
 
 
 }
