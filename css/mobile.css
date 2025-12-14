@@ -284,31 +284,33 @@
 
   /* Hero section start */
 
+.info-hero-container {
+display: flex;
+flex-direction: column-reverse;
+  gap: var(--grid-gap);
+}
+
+
 .info-hero-container h1 {
-    font-size: 20px;
+    font-size: 35px;
+    padding: 36px 0 50px 0;
   }
 
   /* Info detail section */
 
   .info-details {
-    height: 650px;
-    width: 500px;
+  width: 100%;
   }
 
   .info-details-container {
-    padding: 0 20px;
-    height: 550px;
+  padding: 50px 20px 50px 20px;
   }
 
   .info-details-container-text {
     flex-direction: column;
   }
 
-  .info-details-item {
-    padding: 10px 0 0 0;
-  }
-
-  .info-details-item h2 {
+   .info-details-item h2 {
     font-size: 30px;
     margin-bottom: 10px;
   }
@@ -323,25 +325,25 @@
     flex-direction: column;
   }
 
-  .info-details-container-box-image {
-    display: none;
-  }
+.info-details-container-box-image {
+  width: 100%;
+  height: 50%;
+}
 
-  .info-details-container-box-text {
-    display: none;
-  }
-
-  .info-details-container-ticket {
-    display: none;
-  }
+.info-details-container-box-text {
+  width: 100%;
+}
 
   /* FAQ section */
 
   .faq,
   .faq-text {
-    width: 500px;
-    padding: 0 45px 0 20px;
+    width: 100%;
   }
+
+    .info-details-item {
+      width: 100%;
+    }
 
   .faq-text h3 {
     font-size: 40px;
@@ -363,12 +365,7 @@
   /* find os section */
 
   .find-os {
-    justify-content: center;
-    width: 500px;
-  }
-
-  .find-os-embed-map {
-    display: none;
+    width: 100%;
   }
 
   .find-os-text-one h3 {
@@ -380,22 +377,15 @@
     font-size: 20px;
     padding: 0 20px;
   }
+     .find-os-text-two p {
+       font-size: 20px;
+     }
 
-  .find-os-embed-map {
-    padding: 0 20px;
-    width: 400px;
-  }
+    .find-os-embed-map iframe {
+      height: 240px;
+    }
 
-  .find-os-text-two p {
-    font-size: 20px;
-    padding: 0 20px;
-    width: 450px;
-  }
-
-  .find-os-ticket-buy {
-    justify-content: center;
-    margin: 0 auto;
-  }
+ 
 
   /* Praktisk Info end */
 
