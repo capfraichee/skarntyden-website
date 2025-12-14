@@ -32,16 +32,16 @@
   }
 
   .header-navigation ul a {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
 
   .header-navigation p {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
   }
 
-  .button {
+  .button-header {
     display: none;
   }
 
@@ -64,7 +64,7 @@
   }
 
   .footer-box-three ul li a {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 2.3;
   }
 
@@ -86,6 +86,7 @@
   .footer-box-four {
     grid-column: 2;
     grid-row: 2;
+    justify-items: end;
   }
 
   .footer-box-one img,
@@ -111,14 +112,14 @@
   }
 
   .hero-top-text h1 {
-    font-size: 55px;
+    font-size: 48px;
     margin-bottom: 0;
     line-height: 1;
     margin-bottom: 10px;
   }
 
   .hero-top-text h1 span {
-    font-size: 45px;
+    font-size: 43px;
   }
 
   .hero-top-text h3 {
@@ -169,7 +170,7 @@
   }
 
   .hvem-section-text h2 {
-    font-size: 38px;
+    font-size: 34px;
   }
 
   .hvem-section-text ul {
@@ -251,7 +252,7 @@
   }
 
   .teater-text h2 {
-    font-size: 40px;
+    font-size: 34px;
   }
 
   .teater-text p {
@@ -277,22 +278,14 @@
 
   /* HOME-page - end */
 
+
+
   /* Praktisk Info start */
 
   /* Hero section start */
 
-  .info-hero {
-    width: 500px;
-  }
-
-  .info-hero-text {
-    width: 500px;
-    padding: 0 20px;
-  }
-
-  .info-hero-text h1 {
-    font-size: 55px;
-    padding: 0 20px;
+.info-hero-container h1 {
+    font-size: 20px;
   }
 
   /* Info detail section */
