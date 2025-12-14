@@ -345,27 +345,22 @@ font-size: 18px;
 
   /* Om Skarntyden end */
 
+ 
+
   /* Praktisk info start*/
 
   /* Hero section */
+         .info-hero-container h1 {
+           font-size: 28px;
+         }
 
-  .info-hero-container {
-    padding: 0 70px 0 30px;
-  }
+ 
 
   /* Info details */
-  .info-details {
-    padding: 0 70px 0 20px;
-  }
 
   /* FAQ */
-  .faq-text {
-    padding: 50px 20px 0 20px;
-  }
+
 
   /* Find os */
-  .find-os-text-one,
-  .find-os-text-two {
-    padding: 0 20px;
-  }
+
 }
