@@ -238,7 +238,6 @@
 
   /* footer-end */
 
- 
   /* Praktisk info start*/
 
   /* Hero section */
@@ -258,7 +257,7 @@
 
   .info-details-container-box {
     flex-direction: column;
-      margin-bottom: 60px;
+    margin-bottom: 60px;
   }
 
   .info-details-container-box-image {
@@ -308,108 +307,95 @@
     font-size: 22px;
   }
 
-    .info-details-container-box-text p {
-      margin-bottom: 30px;
-    }
+  .info-details-container-box-text p {
+    margin-bottom: 30px;
+  }
 
- /* Om Skarntyden start */
+  /* Om Skarntyden start */
 
-.hero-section-om {
+  .hero-section-om {
     min-height: 700px;
-}
+  }
 
-
-.hero-top-om {
+  .hero-top-om {
     padding: 130px 20px 0 20px;
   }
 
-.hero-top-om h1 {
-   font-size: 25px;
- }
+  .hero-top-om h1 {
+    font-size: 25px;
+  }
 
- /* One image section */
+  /* One image section */
 
- .text-info-one-text {
-   padding: 70px 20px;
- }
+  .text-info-one-text {
+    padding: 70px 20px;
+  }
 
+  .text-info-one-text p {
+    line-height: 1.5;
+    font-size: 25px;
+  }
 
- .text-info-one-text p {
-   line-height: 1.5;
-   font-size: 25px;
- }
+  /* One image section */
 
- /* One image section */
+  .one-image-info-container {
+    padding: 60px 20px;
+  }
 
- .one-image-info-container {
-   padding: 60px 20px;
- }
+  .one-image-info-container h2 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
 
- .one-image-info-container h2 {
-   font-size: 30px;
-   margin-bottom: 40px;
- }
+  .one-image-info-container p {
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
 
- .one-image-info-container p {
-   font-size: 25px;
-   margin-bottom: 25px;
-   line-height: 1.5;
- }
+  /* Multiple image section */
 
- /* Multiple image section */
+  .multiple-image-info-container {
+    padding: 60px 20px;
+  }
 
- .multiple-image-info-container {
-   padding: 60px 20px;
- }
+  .multiple-image-container-text-one h2 {
+    font-size: 32px;
+  }
 
- .multiple-image-container-text-one h2 {
-   font-size: 32px;
- }
+  .multiple-image-container-text-one p {
+    font-size: 25px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    line-height: 1.5;
+  }
 
- .multiple-image-container-text-one p {
-   font-size: 25px;
-   margin-bottom: 16px;
-      margin-top: 40px;
-   line-height: 1.5;
- }
+  .multiple-image-container-text-two h4 {
+    font-size: 25px;
+    margin-bottom: 25px;
+    line-height: 1.5;
+  }
 
- .multiple-image-container-text-two h4 {
-   font-size: 25px;
-   margin-bottom: 25px;
-   line-height: 1.5;
- }
+  .multiple-image-container-image-three {
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
- .multiple-image-container-image-three {
-   background-size: cover;
-   background-repeat: no-repeat;
- }
+  /* No image info two */
 
- /* No image info two */
+  .no-image-section-two-container {
+    padding: 60px 20px;
+  }
 
+  .no-image-section-two-container h3 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
 
+  .no-image-section-two-container p {
+    font-size: 25px;
+    line-height: 1.5;
+  }
 
- .no-image-section-two-container {
-   padding: 60px 20px;
- }
-
- .no-image-section-two-container h3 {
-   font-size: 35px;
-   margin-bottom: 30px;
- }
-
- .no-image-section-two-container p {
-   font-size: 25px;
-   line-height: 1.5;
- }
-
-
-
-
-
-
- /* Om Skarntyden end */
-       
-
-
-
+  /* Om Skarntyden end */
 }

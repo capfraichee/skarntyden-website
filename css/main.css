@@ -218,6 +218,7 @@ p {
   font-weight: 700;
 }
 
+
 /* 2nd screen - end*/
 
 /* Hvem - 3d screen*/
@@ -804,7 +805,7 @@ p {
 /* Hero section start */
 
 .hero-section-om {
-  background-image: url(../img/menneskerne-bag-brødrene-løvehjerte.jpg);
+  background-image: url("../img/menneskerne-bag-brødrene-løvehjerte.jpg");
   width: var(--width-full);
   min-height: 870px;
   border-bottom: 10px solid var(--background-color-light);
