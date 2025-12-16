@@ -135,12 +135,16 @@ p {
 }
 
 .hero-top {
-  background-image: url('../img/brodrene_lovehjerte_skarntyden.jpg');
+  background-image: url('../img/brodrene_lovehjerte_skarntyden_1.jpg');
   height: fit-content;
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  border: none;
 }
+
 
 .hero-top-text {
   width: var(--width-12col);
@@ -218,7 +222,6 @@ p {
   font-weight: 700;
 }
 
-
 /* 2nd screen - end*/
 
 /* Hvem - 3d screen*/
@@ -279,12 +282,14 @@ p {
 /*Hvorfor1 -  4d block*/
 
 .hvorfor {
-  background-image: url('../img/born-besejrer-dragen_skarntyden.png');
+  background-image: url('../img/born-besejrer-dragen_skarntyden-1.jpg');
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  height: 1000px;
   width: var(--width-full);
+    display: flex;
+      align-items: center;
+      min-height: 900px;
 }
 
 .hvorfor-top {
@@ -326,6 +331,9 @@ p {
 .hvorfor-top-text span {
   display: none;
 }
+
+.button-dragon {
+        margin-top: 16px;}
 
 /* 4d block - end*/
 
@@ -805,7 +813,7 @@ p {
 /* Hero section start */
 
 .hero-section-om {
-  background-image: url("../img/menneskerne-bag-brødrene-løvehjerte.jpg");
+  background-image: url('../img/menneskerne-bag-brødrene-løvehjerte.jpg');
   width: var(--width-full);
   min-height: 870px;
   border-bottom: 10px solid var(--background-color-light);
