@@ -135,7 +135,7 @@ p {
 }
 
 .hero-top {
-  background-image: url('../img/brodrene_lovehjerte_skarntyden_1.jpg');
+  background-image: url('../img/brodrene_lovehjerte_skarntyden-3.jpg');
   height: fit-content;
   background-size: cover;
   background-position: center center;
@@ -299,7 +299,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 440px 20px 0 20px;
+  padding: 450px 20px 0 20px;
   align-items: center;
 }
 
@@ -315,7 +315,7 @@ p {
 }
 
 .hvorfor-top-text h2 {
-  font-size: 73px;
+  font-size: 70px;
   font-weight: 700;
 }
 
